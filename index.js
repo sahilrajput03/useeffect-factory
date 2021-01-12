@@ -25,3 +25,4 @@ export const useComponentWillMount2 = (fn) => {
 };
 
 export const log = console.log;
+export const logg = console.log;
