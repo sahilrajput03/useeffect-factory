@@ -7,9 +7,8 @@
 		"react": "^16.0.0 || ^17.0.0"
 	},
 	"scripts": {
-		"prestart": "c Pre version commit.",
-		"start": "yarn version --patch && yarn publish",
-		"poststart": "p"
+		"prepublish": "c Pre version commit. ; yarn version --patch",
+		"postpublish": "p"
 	},
 	"repository": {
 		"type": "git",
