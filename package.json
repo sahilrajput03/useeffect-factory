@@ -1,14 +1,16 @@
 {
 	"name": "useeffect-factory",
-	"version": "0.0.8",
+	"version": "0.0.10",
 	"main": "index.js",
 	"license": "MIT",
 	"peerDependencies": {
 		"react": "^16.0.0 || ^17.0.0"
 	},
 	"scripts": {
-		"prepublish": "c Pre version commit. ; yarn version --patch",
-		"postpublish": "p"
+		"prepublish": "yarn version --patch",
+		"postpublish": "echo postpublish",
+		"dprepublish1": "c Pre version commit. ; yarn version --patch",
+		"dpostpublish2": "p"
 	},
 	"repository": {
 		"type": "git",
