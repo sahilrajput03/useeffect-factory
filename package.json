@@ -1,0 +1,14 @@
+{
+	"name": "useeffect-factory",
+	"version": "0.0.6",
+	"main": "index.js",
+	"license": "MIT",
+	"peerDependencies": {
+		"react": "^16.0.0 || ^17.0.0"
+	},
+	"scripts": {
+		"prestart": "c Pre version commit.",
+		"start": "yarn version --patch && yarn publish",
+		"poststart": "p"
+	}
+}
