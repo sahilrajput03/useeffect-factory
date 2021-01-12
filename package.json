@@ -10,5 +10,9 @@
 		"prestart": "c Pre version commit.",
 		"start": "yarn version --patch && yarn publish",
 		"poststart": "p"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sahilrajput03/useeffect-factory"
 	}
 }
